@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- links -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/card.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+
+  <!-- titles -->
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    .attribution { font-size: 1rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <figure class="card">
+      <div class="card__content">
+        <img src="/images/illustration-hero.svg" alt="Image Hero" class="card__image">
+        <div class="card__text">
+          <h2 class="card__title">Order Summary</h2>
+          <p class="card__description">  You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>
+
+        <div class="card__payment-plan">
+          <div class="payment-plan__item-1">
+            <img src="/images/icon-music.svg" alt="Music Icon" class="payment-plan__music-icon">
+          </div>
+          <div class="payment-plan__item-2">
+            <p>Annual Plan</p>            
+            <p>$59.99/year</p>
+          </div>
+          <div class="payment-plan__item-3">
+            <a href="#" class="payment-plan__change-plan">Change</a>
+          </div>
+        </div>
+
+        <div class="card__btn">
+          <button class="card__btn-proceed" type="submit">Proceed to Payment</button>
+          <p>
+            <a href="#" class="card__bth-cancel">Cancel Order</a>
+          </p>
+        </div>
+      </div>
+    </figure>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yakeru</a>.
+  </div>
+</body>
+</html>
