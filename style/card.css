@@ -129,6 +129,8 @@
 }
 
 .card__btn-proceed:hover {
+    cursor: pointer;
+    
     background-color: var(--activated-blue);
     -moz-transition: all 0.35s ease;
     -webkit-transition: all 0.35s ease;
