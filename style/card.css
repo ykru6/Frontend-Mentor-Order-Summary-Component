@@ -3,15 +3,12 @@
 .card {
     background-color: white;
     border-radius: 20px;
+    box-shadow: 0 15px 100px rgba(82, 101, 154, 0.315);
 
     padding-bottom: 1.25rem;
 
     max-width: 330px;
 
-}
-
-:is(.card, .card__image) {
-    box-shadow: 0 15px 100px rgba(82, 101, 154, 0.315);
 }
 
 .card__image {
